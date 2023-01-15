@@ -1,0 +1,54 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root{
+  --color-bg: #191516;
+  --color-bg-variant: #413D3E;
+  --color-primary:#345995;
+  --color-primary-variant:#273756;
+  --color-white:#fff;
+  --color-light:#C8BFC7;
+
+  --transition: all 400ms ease;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+::-webkit-progress-bar{
+  display: none;
+}
+
+button{
+  padding: 1px 20px 1px 20px;
+  align-items: center;
+  font-size: medium;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 3rem;
+  background-color: var(--color-primary-variant);
+  color: var(--color-light);
+  border: none;
+}
+
+body{
+  font-family: 'Poppins',sans-serif;
+  background: var(--color-bg);
+  color: var(--color-white);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
